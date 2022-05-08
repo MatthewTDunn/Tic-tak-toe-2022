@@ -1,0 +1,39 @@
+*{
+    border:0;
+    margin:0;
+    background-color:#333;
+    font-family: system-ui;
+}
+
+.container{
+    display:flex;
+    padding: 20vh 20vw 10vh 20vw;
+    flex-wrap: wrap;
+    background-size:contain;
+}
+
+.square {
+    width: 19vw;
+    height: 19vh;
+    border: solid black 1px;
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* this will fit the image to the div  */
+    background-size:contain cover;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+h1{
+    font-size:50px;
+    color:white;
+    text-align: center;
+}
+h2{
+    font-size:30px;
+    color:white;
+    text-align:center;
+}
